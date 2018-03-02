@@ -1,0 +1,11 @@
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<h1>
+	<a href = "{% url 'home' %}"><strong>Home</strong> | <a href = "{% url 'about' %}" ><strong> About</strong></a> |<a href = "{% url 'references' %}" ><strong> References</strong></a>
+</h1>
+
+{% block content %}
+{% endblock %}
+
